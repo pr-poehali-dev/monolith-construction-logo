@@ -18,7 +18,17 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'roboto-condensed': ['Roboto Condensed', 'sans-serif'],
+				'open-sans': ['Open Sans', 'sans-serif']
+			},
 			colors: {
+				construction: {
+					dark: '#2D3748',
+					red: '#E53E3E',
+					gray: '#718096',
+					light: '#F7FAFC'
+				},
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
